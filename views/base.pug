@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    title harry dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.jpg", alt="")
+                | HDA
+            li #[a(href="/") home]
+            li #[a(href="/") about]
+            li #[a(href="/") services]
+            li #[a(href="/") class info]
+            li #[a(href="/contact") contact us]
+    block content
+    block foot
+    footer#footer
+        |  copyright 2019  harrydanceacademy  all rights reserved 
